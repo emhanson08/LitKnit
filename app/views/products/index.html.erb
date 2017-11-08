@@ -1,2 +1,6 @@
 <h1>From roving to lace</h1>
-<h3>Everything to need to become a master knitter</h3>
+<h3>Yarn, books and accessories to help you become a master knitter</h3>
+<%= @products.each do |product| %>
+  <%= product.name %>
+  <%= product.description %>
+<% end %>
